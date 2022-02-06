@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+<title>Lucky Jain - Portofolio Website</title>
+</head>
+<body>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><b class="text-white">LUCKY</b><b class="text-purple">JAIN</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars text-white"></i></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Frontend</a>
+                  <a class="dropdown-item" href="#">Backend</a>
+                  <a class="dropdown-item" href="#">FullStack</a>
+                </div>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Project 01</a>
+                <a class="dropdown-item" href="#">Project 02</a>
+                <a class="dropdown-item" href="#">Project 03</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row p-4 mt-4">
+          <div class="col-lg-8 mt-2">
+            <h1 class="text-white">I
+                <span
+                   class="txt-rotate text-white"
+                   data-period="2000"
+                   data-rotate='[ "am Lucky Jain.", "am a web developer.", "make projects.", "am so enthusiastic.", "am always energetic." ]'></span>
+              </h1> <br>
+              <h2 class="font-new text-white">Hi there! Welcome to my website. </h2> <br>
+              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore veniam minima voluptates, fuga non deserunt quaerat necessitatibus accusantium. Fuga enim eos laudantium fugiat, perspiciatis placeat nobis ab et odit magni?</p>
+              <button class="btn btn-danger rounded-pill" data-toggle="modal" data-target="#exampleModal">Hire me</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header bg-warning">
+                      <h5 class="modal-title" id="exampleModalLabel">Fill this form to continue</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-white bg-danger p-2">
+                      <form action="/" method="post">
+                        <label for="name">Your Name:</label><br>
+                      <input type="text" name="name" id="name" class="form-control" placeholder="enter name" required> <br>
+                      <label for="email">Enter email:</label> <br>
+                      <input type="email" name="email" id="email" class="form-control" placeholder="enter email" required> <br>
+                      <label for="matter">Tell your query:</label>
+                      <input type="text" name="query" id="query" class="form-control mb-2" style="height: 4rem;">
+                      <input type="submit" name="submit" id="submit" class="btn btn-warning form-control" value="Submit">
+                      </form>
+                    </div>
+                    <div class="modal-footer bg-warning">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <button class="btn btn-danger rounded-pill">Check out more</button>
+          </div>
+          <div class="col-lg-4 mt-2">
+              <img class="img-fluid col-lg-8 col-sm-8 col-md-6 ml-lg-4 ml-sm-1 rounded-circle" src="./images/man-vector.jpg" alt="">
+          </div>
+      </div>
+</div>
+<div class="about-me">
+  <div class="text-center">
+    <h1 class="font-oswald"><b>About Me</b></h1>
+  </div>
+    <div class="row">
+      <div class="col-lg-6 m-3 text-center p-3">
+        <div class="border-bottom border-dark text-center m-2">
+          <h3> <b> Background </b></h3>
+        </div>
+        <b>Graduation:</b> A great college of Compter Science. <br>
+        <b>School:</b> An awesome coding school. <br>
+        <b>City:</b> Disneyland. <br>
+        <b>State:</b> NewState <br>
+        <b>Country:</b> Dreamland. <br>
+      </div>
+      <div class="col-lg-5 mt-3 text-center p-3">
+        <h3 class="border-bottom border-dark p-2"><b>Performance</b></h3>
+        <b>College:</b> 10.0 CGPA <br>
+        <b>12th:</b> 10.0 CGPA <br>
+        <b>10th:</b> 10.0 CGPA <br>
+        <b>Audience rating:</b> 5 Star <br>
+        <b>Overall rating:</b> 5 star <br>
+      </div>
+    </div>
+</div>
+<div class="certifications">
+  <div class="text-center mb-2 border-bottom border-dark">
+    <h1 class="font-oswald"><b>Certifications</b></h1>
+  </div>
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <div class="container">
+        <img src="./images/R.png" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Great Learning</div>
+        </div>
+      </div>      
+    </div>
+    <div class="item"><div class="container">
+      <img src="https://eladnava.com/content/images/2016/07/mongodb-1.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Great Learning</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="https://miro.medium.com/max/3164/1*LSinbzlHYROHgxpQUWtyHQ.jpeg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Hello World</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="http://findnerd.s3.amazonaws.com/imagedata/8007/8007.png" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Hello World</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="https://msatechnosoft.in/blog/wp-content/uploads/2017/04/Web-Design-using-HTML-msa-technosoft.png" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Hello World</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="http://youfew.com/HTML5-CSS3/images/css3.png" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Hello World</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="http://4.bp.blogspot.com/-dxDKlrr2Oe4/T9wkNoATkHI/AAAAAAAABM8/1_woWzunk2k/s1600/2000px-php-logo-svg_.png" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Hello World</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="https://imd.co.th/wp-content/uploads/2019/06/1200px-MySQL.svg_.png" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Testbook</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="https://loudcanvas.com/wp-content/uploads/2019/06/bootstrap-wallpaper.png" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Testbook</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="http://radicalhub.com/wp-content/uploads/2018/07/javascript.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Testbook</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="http://mspoweruser.com/wp-content/uploads/2016/07/typescript-cover-image.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Hello World</div>
+      </div>
+    </div> </div>
+    <div class="item"><div class="container">
+      <img src="https://www.k2bindia.com/wp-content/uploads/2016/04/jquery.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Hello World</div>
+      </div>
+    </div> </div>
+</div>
+</div>
+<div class="my-works text-center mt-2 p-2">
+  <h1 class="font-oswald font-weight-bold text-white">MY WORKS</h1>
+<div id="myBtnContainer">
+  <button class="btn01 btn btn-danger rounded-pill active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn01 btn btn-danger rounded-pill" onclick="filterSelection('nature')"> Basic</button>
+  <button class="btn01 btn btn-danger rounded-pill" onclick="filterSelection('cars')"> Advance</button>
+  <button class="btn01 btn btn-danger rounded-pill" onclick="filterSelection('people')"> Premium</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row row01">
+  <div class="column nature">
+    <div class="content">
+      
+      <b>Portofolio site</b>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      
+      <b>Ecommerce site</b>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      
+      <b>Social Media site</b>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+     
+      <b>Chat app</b>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      
+      <b>Featured Todo App</b>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      
+      <b>Beautiful calculator</b>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      
+      <b>Quiz App with scores</b>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+     
+      <b>Resume builder</b>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+     
+      <b>Weather app</b>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+</div>
+
+<div class="testimonials mt-3">
+<div class="text-center"><h2 class="font-oswald font-weight-bold">TESTIMONIALS</h2></div>
+  <div class="container01">
+    <img src="https://www.freevector.com/uploads/vector/preview/28490/business_man-01.jpg" alt="Avatar" style="width:90px">
+    <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p>
+  </div>
+  
+  <div class="container01">
+    <img src="https://www.freevector.com/uploads/vector/preview/28490/business_man-01.jpg" alt="Avatar" style="width:90px">
+    <p><span >Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+  </div>
+  <div class="container01">
+    <img src="https://www.freevector.com/uploads/vector/preview/28490/business_man-01.jpg" alt="Avatar" style="width:90px">
+    <p><span >Rashford</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+  </div>
+  <div class="container01">
+    <img src="https://www.freevector.com/uploads/vector/preview/28490/business_man-01.jpg" alt="Avatar" style="width:90px">
+    <p><span >Nazario</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+  </div>
+</div>
+<div class="footer mt-3">
+  <div class="row">
+    <div class="col-lg-3">
+      <h5>Services</h5>
+      Frontend <br> Backend <br> Full stack <br>
+    </div>
+    <div class="col-lg-3">
+      <h5>Awards</h5>
+      Ye award <br> Wo award <br> Falana award <br>
+    </div>
+    <div class="col-lg-3">
+      <h5>Reach out</h5>
+      someone@mail.com <br> 74905361 <br> that city, mars. <br>
+    </div>
+    <div class="col-lg-3">
+      <h5>Feedback</h5>
+      Good <br> Very good <br> God Level <br>
+    </div>
+  </div>
+</div>
+<div class="bg-danger text-center text-white p-3">
+ <h5>Created by Lucky Jain <br>
+luckyjain7247@gmail.com</h5>
+</div>
+
+
+
+
+<script src="script.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
